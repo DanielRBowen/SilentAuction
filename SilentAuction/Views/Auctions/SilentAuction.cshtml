@@ -166,11 +166,6 @@
             var minutes = Math.round(((differenceInMilliseconds % oneDay) % oneHour) / oneMinuet);
             var seconds = Math.round((((differenceInMilliseconds % oneDay) % oneHour) % oneMinuet) / 1000);
 
-            // var days = Math.round(differenceInMilliseconds / oneDay);
-            //var hours = Math.round(differenceInMilliseconds / (oneDay / 24));
-            //var minutes = Math.round(differenceInMilliseconds / (oneDay / 24 / 60));
-            // var seconds = Math.round(differenceInMilliseconds / (oneDay / 24 / 60 / 60));
-
             if (differenceInMilliseconds <= 0) {
 
                 document.getElementById("time").innerHTML = "<h3><strong>Time Till Auction End:</strong> AUCTION END </h3>";

@@ -69,7 +69,8 @@ namespace SilentAuction
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            TestSeedData.Initialize(auctionContext);
+            auctionContext.Database.EnsureCreated();
+            //TestSeedData.Initialize(auctionContext);
         }
     }
 }

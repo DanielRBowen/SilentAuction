@@ -15,7 +15,6 @@
     <Content Include="wwwroot\images\2017_13_02_TRISARA__1090_FINAL-1900x1267.jpg" />
     <Content Include="wwwroot\images\H-OPV-10_Bathroom-1900x1501.jpg" />
     <Content Include="wwwroot\images\H-OPV-36-1900x1267.jpg" />
-    <Content Include="wwwroot\images\no-image.jpg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.0" />

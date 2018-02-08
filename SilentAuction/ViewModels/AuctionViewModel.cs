@@ -7,7 +7,7 @@ namespace SilentAuction.ViewModels
     {
         public int Id { get; set; }
 
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
 
         public IList<Category> Categories { get; set; }
 
