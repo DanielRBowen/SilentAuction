@@ -131,6 +131,7 @@ namespace SilentAuction.Data
             {
                 context.Listings.Add(listing);
             }
+            context.SaveChanges();
 
             // User Roles
             var role = new Role { Id = RoleId.User, Name = "User" };
